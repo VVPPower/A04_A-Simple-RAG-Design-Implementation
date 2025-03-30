@@ -1,0 +1,12 @@
+{
+    "log_level": "debug",
+    "raw_input_directory": "data/raw_input",
+    "cleaned_text_directory": "data/cleaned_text",
+    "embeddings_directory": "data/embeddings",
+    "embedding_model_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "vectordb_directory": "data/vectordb",
+    "collection_name": "collections",
+    "llm_api_url": "http://localhost:1234/v1/completions",
+    "llm_model_name": "llama-3.2-1b-instruct",
+    "retriever_min_score_threshold": "0.5"
+}
